@@ -6,9 +6,6 @@
   border: none;
 }
 
-/* Tambahan tampilan responsive */
-
-/* Add media query for smaller screens */
 @media (max-width: 600px) {
   .button-container {
     margin-top: 20px;
@@ -16,11 +13,11 @@
 }
 
 .button-link {
-  width: 80%; /* Set the width to occupy 80% of the screen width */
+  width: 80%;
 }
 
 .arrow-container {
-  top: -20px; /* Adjust the position of the arrows for smaller screens */
+  top: -20px;
 }
 
 .arrow {
@@ -28,16 +25,14 @@
   height: 8px;
   border-left: 4px solid transparent;
   border-right: 4px solid transparent;
-  border-bottom: 8px solid #007bff; /* Change arrow orientation for smaller screens */
+  border-bottom: 8px solid #007bff;
 }
 
-/* The rest of your existing CSS styles */
-
 .text {
-  display: flex; /* Membuat elemen div menjadi kontainer flex */
-  flex-direction: column; /* Mengatur tata letak vertikal */
-  align-items: center; /* Mengatur konten horizontal ke tengah */
-  text-align: center; /* Mengatur teks menjadi rata tengah */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
 .tooltip {
@@ -112,7 +107,7 @@ ul.links li {
 
 ul.links li a {
   display: inline-block;
-  padding: 15px 40px; /* Tetapkan padding horizontal yang sama untuk semua tombol */
+  padding: 15px 40px;
   font-size: 15px;
   cursor: pointer;
   text-align: center;
@@ -125,7 +120,7 @@ ul.links li a {
   box-shadow: 0 9px #57737a;
   transition: background-color 0.3s, box-shadow 0.3s, tran sform 0.3s;
   width: 350px;
-  max-width: 500px; /* Tetapkan lebar maksimum untuk semua tombol */
+  max-width: 500px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -147,7 +142,7 @@ ul.links li a:active {
   background-color: #d9f7f8;
   border: none;
   color: rgb(0, 0, 0);
-  padding: 10px;
+  padding: 0;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -156,7 +151,7 @@ ul.links li a:active {
   cursor: pointer;
   border-radius: 10px;
   width: 90px;
-  height: 40px;
+  height: 30px;
   border: 2px solid #57737a;
 }
 
@@ -259,7 +254,7 @@ ul.links li a:active {
   border-radius: 0px 0px 10px 10px;
   border: 2px solid #57737a;
   display: flex;
-  padding: 20px; /* Padding di dalam container */
+  padding: 20px;
 }
 
 .stepOne {
@@ -303,7 +298,7 @@ ul.links li a:active {
   border-radius: 0px 0px 10px 10px;
   border: 2px solid #57737a;
   display: flex;
-  padding: 20px; /* Padding di dalam container */
+  padding: 20px;
 }
 
 .keterangan {
@@ -329,7 +324,7 @@ ul.links li a:active {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 0 10px; /* Atur jarak horizontal antara .delivery dan .nonCod sesuai kebutuhan Anda */
+  margin: 0 10px;
 }
 
 .profile {
@@ -348,7 +343,8 @@ ul.links li a:active {
   max-width: 500px;
   margin: 0 auto;
   display: flex;
-  padding: 20px; /* Padding di dalam container */
+  padding: 20px;
+  font-weight: bold;
 }
 
 footer {
