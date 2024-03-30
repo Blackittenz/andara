@@ -19,5 +19,23 @@ copyButtons.forEach((button, index) => {
         otherButton.disabled = false;
       }
     });
+
+    // Check if the device is a smartphone
+    const isSmartphone =
+      /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
+        navigator.userAgent
+      );
+    if (isSmartphone) {
+      // Create and append the popup element
+      const popup = document.createElement("div");
+      popup.classList.add("popup");
+      popup.innerText = "Rekening Tersalin";
+      document.body.appendChild(popup);
+
+      // Remove the popup after 2 seconds
+      setTimeout(() => {
+        document.body.removeChild(popup);
+      }, 2000);
+    }
   });
 });

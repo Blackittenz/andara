@@ -75,8 +75,8 @@
 
 body {
   font-family: Arial, sans-serif;
-  background-color: #c2fcf7;
-  background-image: linear-gradient(#c2fcf7, #85bdbf);
+  background-color: #f4f3ee;
+  background-image: linear-gradient(#f0d8dc, #815666);
   width: 100%;
   margin: 0 auto;
 }
@@ -87,7 +87,7 @@ header {
 }
 
 img {
-  width: 100px;
+  width: 200px;
 }
 
 h1 {
@@ -114,10 +114,10 @@ ul.links li a {
   text-decoration: none;
   outline: none;
   color: #000000;
-  background-color: #b5faf4;
-  border: 2px solid #57737a;
+  background-color: #f0d8dc;
+  border: 2px solid #463f3a;
   border-radius: 30px;
-  box-shadow: 0 9px #57737a;
+  box-shadow: 0 9px #463f3a;
   transition: background-color 0.3s, box-shadow 0.3s, tran sform 0.3s;
   width: 350px;
   max-width: 500px;
@@ -127,19 +127,19 @@ ul.links li a {
 }
 
 ul.links li a:hover {
-  background-color: #aed2ffd8;
-  box-shadow: 0 9px #57737a;
+  background-color: #ffffff;
+  box-shadow: 0 9px #463f3a;
 }
 
 /* Tambahkan efek pressed saat tombol ditekan */
 ul.links li a:active {
-  background-color: #aed2ffd8;
-  box-shadow: 0 5px #57737a;
+  background-color: #ffffff;
+  box-shadow: 0 5px #463f3a;
   transform: translateY(4px);
 }
 
 .copy-button {
-  background-color: #d9f7f8;
+  background-color: #e2c4c9;
   border: none;
   color: rgb(0, 0, 0);
   padding: 0;
@@ -152,12 +152,12 @@ ul.links li a:active {
   border-radius: 10px;
   width: 90px;
   height: 30px;
-  border: 2px solid #57737a;
+  border: 2px solid #463f3a;
 }
 
 .copy-button:active {
   background-color: #ffffff;
-  border: 2px solid #57737a;
+  border: 2px solid #463f3a;
 }
 
 .noRek {
@@ -166,7 +166,7 @@ ul.links li a:active {
 }
 
 .a-n {
-  font-size: 11px;
+  font-size: 14px;
 }
 
 .content {
@@ -181,9 +181,9 @@ ul.links li a:active {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #caf8f4;
+  background-color: #f0d8dc;
   width: 200px;
-  height: 130px;
+  height: 150px;
   padding: 15px;
   border-radius: 10px;
   box-shadow: 0px 0px 20px -7px grey;
@@ -194,7 +194,7 @@ ul.links li a:active {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  background-color: #b5faf4;
+  background-color: #f0d8dc;
   width: 120px;
   height: 70px;
   padding: 10px;
@@ -207,7 +207,7 @@ ul.links li a:active {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  background-color: #b5faf4;
+  background-color: #f0d8dc;
   width: 320px;
   height: 50px;
   padding: 10px;
@@ -220,7 +220,7 @@ ul.links li a:active {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  background-color: #b5faf4;
+  background-color: #f0d8dc;
   width: 320px;
   height: 50px;
   padding: 10px;
@@ -233,7 +233,7 @@ ul.links li a:active {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  background-color: #b5faf4;
+  background-color: #f0d8dc;
   width: 120px;
   height: 70px;
   padding: 10px;
@@ -248,11 +248,11 @@ ul.links li a:active {
   align-items: center;
   justify-content: space-between;
   text-align: center;
-  background-color: #caf8f4;
+  background-color: #f0d8dc;
   width: 350px;
-  height: 330px;
+  height: 370px;
   border-radius: 0px 0px 10px 10px;
-  border: 2px solid #57737a;
+  border: 2px solid #463f3a;
   display: flex;
   padding: 20px;
 }
@@ -267,8 +267,8 @@ ul.links li a:active {
   text-align: center;
   padding: 0px;
   border-radius: 10px 10px 0px 0px;
-  background-color: #9bd7da;
-  border: 2px solid #57737a;
+  background-color: #f0d8dc;
+  border: 2px solid #463f3a;
 }
 
 .stepTwo {
@@ -281,7 +281,7 @@ ul.links li a:active {
   text-align: left;
   padding: 0px;
   border-radius: 10px 10px 0px 0px;
-  background-color: #c7c0c0;
+  background-color: #f0d8dc;
   border: 2px solid #777575;
 }
 
@@ -292,11 +292,11 @@ ul.links li a:active {
   align-items: center;
   justify-content: space-between;
   text-align: center;
-  background-color: #f8f0e5;
+  background-color: #f0d8dc;
   width: 400px;
   height: 280px;
   border-radius: 0px 0px 10px 10px;
-  border: 2px solid #57737a;
+  border: 2px solid #463f3a;
   display: flex;
   padding: 20px;
 }
@@ -355,5 +355,5 @@ footer {
 
 footer p {
   font-size: 14px;
-  color: #666;
+  color: #000000;
 }
