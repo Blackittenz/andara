@@ -12,6 +12,46 @@
   }
 }
 
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+#copyPopup {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border-radius: 5px;
+  z-index: 1000;
+  opacity: 0; /* Awalnya transparan */
+}
+
+#copyPopup.show {
+  animation: fadeIn 0.5s forwards; /* Animasi fade in */
+}
+
+#copyPopup.hide {
+  animation: fadeOut 0.5s forwards; /* Animasi fade out */
+}
+
 .button-link {
   width: 80%;
 }
